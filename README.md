@@ -19,20 +19,21 @@ This tool helps users and healthcare professionals make **data-driven decisions*
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
+
 2. **Activate the virtual environment**:
 # Mac/Linux
 source .venv/bin/activate
-2. **Install required packages**:
-pip install -r requirements.txt
-4.**Run the project**:
 
+3. **Install required packages**:
+pip install -r requirements.txt
+
+4.**Run the project**:
 Open the Jupyter Notebook oint.ipynb or notebooks/Untitled.ipynb to explore the dataset and run the model.
 
-Technologies Used:
+**Technologies Used**:
 Python (pandas, scikit-learn, matplotlib, seaborn)
 Jupyter Notebook
 Joblib for model saving/loading
 
-Contribution
-
+**Contribution**
 Contributions are welcome! Fork the repository and submit pull requests to improve the project.
